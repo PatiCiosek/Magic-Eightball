@@ -1,3 +1,6 @@
+
+//let userQuestion = window.prompt('what is your question?')
+
 const response = document.querySelector('.response');
 const input = document.getElementById('input');
 const btn = document.getElementById('btn');
@@ -41,12 +44,13 @@ const btn = document.getElementById('btn');
 
  }
 
-    input.addEventListener('keydown',(event)=>{
-      if (event.key === 'Enter'){
-         event.preventDefault();
-         assignResponse();
-      }
-   })
+ input.addEventListener('keydown',(event)=>{
+     if (event.key === 'Enter' && input.value !==''){
+          event.preventDefault();
+          assignResponse();
+          input.value='';
+     }
+ })
 
 
 
