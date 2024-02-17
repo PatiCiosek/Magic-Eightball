@@ -4,4 +4,5 @@
 - Vanilla JavaScript
 - HTML
 - CSS
+- SessionStorage
 
