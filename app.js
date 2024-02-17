@@ -56,7 +56,7 @@ let data = sessionStorage;
      btnClear.addEventListener('click', function(){
           sessionStorage.clear();
           tableBody.innerHTML = '';
-          alert("Your data has been deleted succesfully");         
+          // alert("Your data has been deleted succesfully");         
      });
  }
 
