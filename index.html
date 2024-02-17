@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css"/>
   </head>
   <body>
+    <div id="upper-container">
     <header>
       <h1>ASK ME ANYTHING</h1>
     </header>
@@ -15,6 +16,23 @@
       <input type="text" name="text" id="input" placeholder="Type here...." />
     </main>
     <div class="response hidden"></div>
+    </div>
+
+    <button id="clear-table">x</button> 
+    <div id="table-container"> 
+    <table id="table">
+      <thead>
+        <tr>
+          <td>Question</td>
+          <td>Answer</td>
+        </tr>
+      </thead>
+      <tbody id="table-body">
+
+      </tbody>
+    </table>
+    </div>
+
     <script src="app.js"></script>
   </body>
 </html>
