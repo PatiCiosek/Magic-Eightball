@@ -1,4 +1,4 @@
-# Simple Magic-Eightball
+# Simple Magic-8ball
 
 ### Built with:
 - Vanilla JavaScript
